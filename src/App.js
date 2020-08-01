@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './App.css';
+import Footer from './components/footer/footer.component';
 import Navbar from './components/navbar/navbar.component';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
 
     <Navbar/>
+    <Footer/>
 
     </div>
   );
